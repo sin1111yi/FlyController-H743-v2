@@ -48,6 +48,7 @@ e.g.
 **09.30.2022**
 
 1. trying to finish PCB design by ***Altuim Designer 22***
+2. considering add bluetooth or wifi on board
 
 **09.19.2022**
 
@@ -132,11 +133,11 @@ e.g.
 |  PA5  | SPI1_SCK  |  SPI1_SCK   |
 |  PA6  | SPI1_MISO |  SPI1_MISO  |
 |  PA7  | SPI1_MOSI |  SPI1_MOSI  |
-| PB12  | SPI2_NSS  |  SPI2_NSS   |
+| PB12  | SPI2_NSS  | GPIO_Output |
 | PB13  | SPI2_SCK  |  SPI2_SCK   |
 | PB14  | SPI2_MISO |  SPI2_MISO  |
 | PB15  | SPI2_MOSI |  SPI2_MOSI  |
-| PA15  | SPI3_NCS  |  SPI3_NSS   |
+| PA15  | SPI3_NCS  | GPIO_Output |
 |  PB3  | SPI3_SCK  |  SPI3_SCK   |
 |  PB4  | SPI3_MISO |  SPI3_MISO  |
 |  PB5  | SPI3_MOSI |  SPI3_MOSI  |
@@ -152,19 +153,19 @@ e.g.
 
 ### *TIMER(1,3,4,15)*
 
-| GPIO  |  Define   |  Source   |
-| :---: | :-------: | :-------: |
-| PE11  | CAM_CTRL  | TIM1_CH2  |
-|  PC6  |    M1     | TIM3_CH1  |
-|  PC7  |    M2     | TIM3_CH2  |
-|  PC8  |    M3     | TIM3_CH3  |
-|  PC9  |    M4     | TIM3_CH4  |
-| PD12  |    M5     | TIM4_CH1  |
-| PD13  |    M6     | TIM4_CH2  |
-| PD14  |    M7     | TIM4_CH3  |
-| PD15  |    M8     | TIM4_CH4  |
-|  PB6  | LED_PAD_1 | TIM15_CH1 |
-|  PB7  |  PWM_BKP  | TIM15_CH2 |
+| GPIO  |  Define  |  Source   |
+| :---: | :------: | :-------: |
+| PE11  | CAM_CTRL | TIM1_CH2  |
+|  PC6  |    M1    | TIM3_CH1  |
+|  PC7  |    M2    | TIM3_CH2  |
+|  PC8  |    M3    | TIM3_CH3  |
+|  PC9  |    M4    | TIM3_CH4  |
+| PD12  |    M5    | TIM4_CH1  |
+| PD13  |    M6    | TIM4_CH2  |
+| PD14  |    M7    | TIM4_CH3  |
+| PD15  |    M8    | TIM4_CH4  |
+|  PB6  | LED_PWM  | TIM15_CH1 |
+|  PB7  | PWM_BKP  | TIM15_CH2 |
 
 ### *I/O or INT*
 
