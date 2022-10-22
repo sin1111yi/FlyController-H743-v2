@@ -5,6 +5,7 @@
 - [FlyController-H743](#flycontroller-h743)
   - [Before](#before)
     - [Author](#author)
+    - [About Commerce](#about-commerce)
     - [Commit Rules](#commit-rules)
   - [Change Log](#change-log)
   - [PCB Overview](#pcb-overview)
@@ -27,6 +28,10 @@
 
 > github: github.com/sin1111yi   
 > email: sin1111yi@foxmail.com   
+
+### About Commerce
+
+> No commercial use without permission
 
 ### Commit Rules
 
