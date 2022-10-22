@@ -1,6 +1,6 @@
 # FlyController-H743
 
-![alt text](.\pic\DBS_logo.png)
+![DBS Logo](.\pic\DBS_logo.png)
 
 - [FlyController-H743](#flycontroller-h743)
   - [Before](#before)
