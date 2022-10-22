@@ -1,10 +1,15 @@
 # FlyController-H743
 
+![alt text](.\pic\DBS_logo.png)
+
 - [FlyController-H743](#flycontroller-h743)
   - [Before](#before)
     - [Author](#author)
     - [Commit Rules](#commit-rules)
   - [Change Log](#change-log)
+  - [PCB Overview](#pcb-overview)
+    - [Top](#top)
+    - [Bottom](#bottom)
   - [Hardware Info](#hardware-info)
   - [GPIO Distribution](#gpio-distribution)
     - [*System Use*](#system-use)
@@ -45,6 +50,9 @@ e.g.
 -------------------
 ## Change Log
 
+**10.23.2022
+1. finished PCB
+
 **09.30.2022**
 
 1. trying to finish PCB design by ***Altuim Designer 22***
@@ -76,16 +84,28 @@ e.g.
 1. create project
 
 -------------------
+
+## PCB Overview
+
+### Top
+
+![PCB Top View](.\pic/DBS_H7Dual_origin_version_top.png)
+
+### Bottom
+
+![PCB Bottom View](.\pic/DBS_H7Dual_origin_version_bottom.png)
+
+-------------------
 ## Hardware Info
 
 0. MCU: STM32H743VIH6
-1. Gyroscope: BMI120
+1. Gyroscope: BMI270, ICM40688P
 2. Barometer: BMP280
-3. Magnetometer: QMC6308
+3. Magnetometer: HMC5883L(QMC5883L)
 4. OSD: AT7456E
 5. Flash: W25Q128JWPIQ
 6. DC/DC: TPS54302DDCR
-7. LDO: ME6217
+7. LDO: ME6217, ME6209
 
 -------------------
 ## GPIO Distribution
@@ -111,18 +131,18 @@ e.g.
 
 ### *UART(1,2,3,4,7)*   
 
-| GPIO  | Define |  Source   |
-| :---: | :----: | :-------: |
-|  PA9  |  TX1   | USART1_TX |
-| PA10  |  RX1   | USART1_RX |
-|  PD5  |  TX2   | USART2_TX |
-|  PD6  |  RX2   | USART2_RX |
-| PC10  |  TX3   | USART3_TX |
-| PC11  |  RX3   | USART3_RX |
-|  PA0  |  TX4   | UART4_TX  |
-|  PA1  |  RX4   | UART4_RX  |
-|  PE8  |  TX7   | UART7_TX  |
-|  PE7  |  RX7   | UART7_RX  |
+| GPIO  | Define |  Source   | Extend Function |
+| :---: | :----: | :-------: | :-------------: |
+|  PA9  |  TX1   | USART1_TX |     ELRS_TX     |
+| PA10  |  RX1   | USART1_RX |     ELRS_RX     |
+|  PD5  |  TX2   | USART2_TX |   DJI_VTX_TX    |
+|  PD6  |  RX2   | USART2_RX |   DJI_VTX_RX    |
+| PC10  |  TX3   | USART3_TX |                 |
+| PC11  |  RX3   | USART3_RX |     ESC_RX      |
+|  PA0  |  TX4   | UART4_TX  |                 |
+|  PA1  |  RX4   | UART4_RX  |                 |
+|  PE8  |  TX7   | UART7_TX  |                 |
+|  PE7  |  RX7   | UART7_RX  |                 |
 
 ### *SPI(1,2,3)*   
 
