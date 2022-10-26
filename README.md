@@ -55,7 +55,13 @@ e.g.
 -------------------
 ## Change Log
 
+**10.27.2022**
+
+1. add another 3.3V LDO
+2. replace ME6209 with ME6214
+
 **10.23.2022**
+
 1. finished PCB
 
 **09.30.2022**
@@ -109,8 +115,8 @@ e.g.
 3. Magnetometer: HMC5883L(QMC5883L)
 4. OSD: AT7456E
 5. Flash: W25Q128JWPIQ
-6. DC/DC: TPS54302DDCR
-7. LDO: ME6217, ME6209
+6. DC/DC: MP9943
+7. LDO: ME6217, ME6214
 
 -------------------
 ## GPIO Distribution
