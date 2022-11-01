@@ -55,6 +55,10 @@ e.g.
 -------------------
 ## Change Log
 
+**11.01.2022**
+
+1. add 2 tantalum capacitors for LDOs
+
 **10.27.2022**
 
 1. add another 3.3V LDO

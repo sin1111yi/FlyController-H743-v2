@@ -1,4 +1,4 @@
-Record=TopLevelDocument|FileName=interface.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=interface.SchDoc|FileName=LDO.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=interface.SchDoc|FileName=Motions.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=interface.SchDoc|FileName=origin.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=Interface.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Interface.SchDoc|FileName=LDO.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Interface.SchDoc|FileName=Motions.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Interface.SchDoc|FileName=origin.SchDoc|SheetNumber=1
