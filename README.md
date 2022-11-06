@@ -1,8 +1,8 @@
-# FlyController-H743
+# DBS FlyController H743 
 
 ![DBS Logo](.\pic\DBS_logo.png)
 
-- [FlyController-H743](#flycontroller-h743)
+- [DBS FlyController H743](#dbs-flycontroller-h743)
   - [Before](#before)
     - [Author](#author)
     - [About Commerce](#about-commerce)
@@ -54,6 +54,12 @@ e.g.
 
 -------------------
 ## Change Log
+
+**11.06.2022**
+
+1. fix some route
+2. change board shape
+3. collect this project in *DBS Project*
 
 **11.01.2022**
 
