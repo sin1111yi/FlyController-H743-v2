@@ -55,6 +55,14 @@ e.g.
 -------------------
 ## Change Log
 
+**12.18.2022**
+
+1. fix LDO problem
+2. change FLASH to SPI2 and AT7456E to SPI3
+3. re-route MCU
+4. change Motions EXTI pins
+5. change BECs' inductances
+
 **11.06.2022**
 
 1. fix some route
@@ -110,17 +118,17 @@ e.g.
 
 ### Top
 
-![PCB Top View](.\pic/DBS_H7Dual_origin_version_top.png)
+![PCB Top View](.\pic/DBS_H7Dual_advance_version_top.png)
 
 ### Bottom
 
-![PCB Bottom View](.\pic/DBS_H7Dual_origin_version_bottom.png)
+![PCB Bottom View](.\pic/DBS_H7Dual_advance_version_bottom.png)
 
 -------------------
 ## Hardware Info
 
 0. MCU: STM32H743VIH6
-1. Gyroscope: BMI270, ICM40688P
+1. Gyroscope: BMI270, ICM42688P
 2. Barometer: BMP280
 3. Magnetometer: HMC5883L(QMC5883L)
 4. OSD: AT7456E
