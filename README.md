@@ -55,6 +55,10 @@ e.g.
 -------------------
 ## Change Log
 
+**19.18.2022**
+
+1. update usb route design
+
 **12.18.2022**
 
 1. fix LDO problem
